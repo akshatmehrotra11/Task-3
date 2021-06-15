@@ -1,0 +1,29 @@
+import java.util.Scanner;
+public class Choice {
+
+	public static void main(String[] args) {
+	
+Scanner sc = new Scanner(System.in);
+
+System.out.println("Enter the no for your particular choice 1.Hi  2.Hey  3.Hello");
+int choice=sc.nextInt();
+
+switch(choice)
+{
+case 1:
+	System.out.println("Hi");
+	break;
+	
+case 2:
+	System.out.println("Hey");
+	break;
+case 3 :
+	System.out.println("Hello");
+	break;
+default :
+	System.out.println("Enter valid choice");
+}
+
+	}
+
+}
